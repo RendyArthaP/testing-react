@@ -2,7 +2,7 @@ import React from 'react'
 
 const TodoList = ({listTodo}) => {
   return (
-    <div id="Todolist">
+    <div title="Todolist">
       {listTodo.map((todos) => (
         <div key={todos.id}>
           <span>{todos.todoo}</span>
